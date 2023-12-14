@@ -28,8 +28,8 @@ html {
   text-transform: uppercase;
   border-radius: 72px;
   background: var(--primary-color);
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 100%;
 }
 
