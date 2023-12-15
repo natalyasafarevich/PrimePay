@@ -43,3 +43,9 @@ export const HOW_WORK_ITEMS: Array<ItemsT> = [
     desc: `Aspernatur sit adipisci quaerat unde Redug Lagre dolor sit amets consectetus. Agencies define their new business`,
   },
 ];
+type ItemAboutT = {label: string; value: string};
+export const ITEMS_ABOUT: Array<ItemAboutT> = [
+  {label: 'Downloaded', value: '12.000 +'},
+  {label: 'Transactions', value: '$10 M'},
+  {label: 'Feedback', value: '1.000 +'},
+];
