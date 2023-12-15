@@ -1,0 +1,36 @@
+.features-card {
+  // .features-card__inner
+
+  &__inner {
+    border-radius: 30px;
+    background: #f8f8f8;
+    padding: 43px 45px;
+  }
+
+  // .features-card__img
+
+  &__img {
+    width: 100%;
+    height: 147.54px;
+    margin-bottom: 33px;
+  }
+
+  // .features-card__title
+
+  &__title {
+    color: #3d3269;
+    margin-bottom: 18px;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 101.2%; /* 35.42px */
+  }
+
+  // .features-card__desc
+
+  &__desc {
+    color: #4e4e4e;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+  }
+}

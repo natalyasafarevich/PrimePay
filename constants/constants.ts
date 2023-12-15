@@ -49,3 +49,30 @@ export const ITEMS_ABOUT: Array<ItemAboutT> = [
   {label: 'Transactions', value: '$10 M'},
   {label: 'Feedback', value: '1.000 +'},
 ];
+type FeaturesCard = {
+  src: string;
+  title: string;
+  desc: string;
+};
+export const FEATURES_CARDS: Array<FeaturesCard> = [
+  {
+    src: '/safe-se.svg',
+    title: 'Safe & Security',
+    desc: `Easily integrate with all your need favorite tools through and APIsing including automatic `,
+  },
+  {
+    src: '/account.svg',
+    title: 'Merchant account',
+    desc: `Easily integrate with all your need favorite tools through and APIsing including automatic `,
+  },
+  {
+    src: '/account2.svg',
+    title: 'Merchant account',
+    desc: `Easily integrate with all your need favorite tools through and APIsing including automatic `,
+  },
+  {
+    src: '/paid.svg',
+    title: 'Fast get paid',
+    desc: `Easily integrate with all your need favorite tools through and APIsing including automatic `,
+  },
+];
