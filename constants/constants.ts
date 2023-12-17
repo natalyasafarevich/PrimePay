@@ -76,3 +76,25 @@ export const FEATURES_CARDS: Array<FeaturesCard> = [
     desc: `Easily integrate with all your need favorite tools through and APIsing including automatic `,
   },
 ];
+type TestimonialCardT = {
+  image: string;
+  name: string;
+  position: string;
+};
+export const TESTIMONIAL_CARD: Array<TestimonialCardT> = [
+  {
+    image: 'Photo-1.png',
+    name: 'Natasha ',
+    position: 'Designer',
+  },
+  {
+    image: 'Photo-2.png',
+    name: 'Joe Cook ',
+    position: 'Developer',
+  },
+  {
+    image: 'Photo-3.png',
+    name: 'Jessica Jobs ',
+    position: 'Product Designer at Uber.INC',
+  },
+];

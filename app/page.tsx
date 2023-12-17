@@ -4,6 +4,8 @@ import Banner from '../components/Banner/Banner';
 import HowWeWork from '../components/HowWeWork/HowWeWork';
 import About from '../components/About/About';
 import Features from '../components/Features/Features';
+import Testimonial from '../components/Testimonial/Testimonial';
+import Awards from '../components/Awards/Awards';
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
         <HowWeWork />
         <About />
         <Features />
+        <Testimonial />
+        <Awards />
       </div>
     </main>
   );
