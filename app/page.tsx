@@ -6,6 +6,7 @@ import About from '../components/About/About';
 import Features from '../components/Features/Features';
 import Testimonial from '../components/Testimonial/Testimonial';
 import Awards from '../components/Awards/Awards';
+import LightMood from '../components/LightMood/LightMood';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Features />
         <Testimonial />
         <Awards />
+        <LightMood />
       </div>
     </main>
   );
