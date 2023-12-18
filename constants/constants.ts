@@ -98,3 +98,13 @@ export const TESTIMONIAL_CARD: Array<TestimonialCardT> = [
     position: 'Product Designer at Uber.INC',
   },
 ];
+type BankItemT = {
+  label: string;
+};
+export const BANK_ITEMS: Array<BankItemT> = [
+  {label: 'All your transaction'},
+  {label: 'Receipts transaction'},
+  {label: 'Experience Smart App'},
+  {label: 'Control your Budget'},
+  {label: 'Find your expenses'},
+];

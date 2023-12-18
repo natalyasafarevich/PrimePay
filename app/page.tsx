@@ -7,18 +7,22 @@ import Features from '../components/Features/Features';
 import Testimonial from '../components/Testimonial/Testimonial';
 import Awards from '../components/Awards/Awards';
 import LightMood from '../components/LightMood/LightMood';
+import Bank from '../components/Bank/Bank';
 
 export default function Home() {
   return (
     <main className={'styles.main '}>
       <div className={styles.page__banner}>
-        <Banner />
-        <HowWeWork />
-        <About />
-        <Features />
-        <Testimonial />
-        <Awards />
-        <LightMood />
+        <div className='wrap'>
+          <Banner />
+          <HowWeWork />
+          <About />
+          <Features />
+          <Testimonial />
+          <Awards />
+          <LightMood />
+        </div>
+        <Bank />
       </div>
     </main>
   );
