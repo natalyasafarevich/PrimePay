@@ -26,6 +26,23 @@ export default function Home() {
         <Bank />
         <div className='wrap'>
           <Pricing />
+          <div className='container'>
+            <form className={styles.page__form}>
+              <label className={styles.page__label}>
+                Take control of your personal <span>finances today</span>
+              </label>
+              <div className={styles.page__row}>
+                <input
+                  type='text'
+                  className={styles.page__input}
+                  placeholder='Enter your email'
+                />
+                <button className={`${styles.page__button} button-dark`}>
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </main>
