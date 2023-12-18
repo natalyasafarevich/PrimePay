@@ -8,6 +8,7 @@ import Testimonial from '../components/Testimonial/Testimonial';
 import Awards from '../components/Awards/Awards';
 import LightMood from '../components/LightMood/LightMood';
 import Bank from '../components/Bank/Bank';
+import Pricing from '../Pricing/Pricing';
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
           <LightMood />
         </div>
         <Bank />
+        <div className='wrap'>
+          <Pricing />
+        </div>
       </div>
     </main>
   );

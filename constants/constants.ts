@@ -108,3 +108,48 @@ export const BANK_ITEMS: Array<BankItemT> = [
   {label: 'Control your Budget'},
   {label: 'Find your expenses'},
 ];
+type ItemT = {label: string};
+type PriceCardT = {
+  src: string;
+
+  price: number;
+  items: Array<ItemT>;
+  isActive: boolean;
+};
+const defaultText: Array<ItemT> = [
+  {
+    label: 'Modern Design',
+  },
+  {
+    label: 'Easy to Customize ',
+  },
+  {
+    label: 'Quickly Set Up A Website',
+  },
+  {
+    label: 'Another Feature',
+  },
+  {
+    label: '24/7 Customer Support',
+  },
+];
+export const PRICE_CARDS: Array<PriceCardT> = [
+  {
+    src: '/basic.svg',
+    price: 10,
+    items: defaultText,
+    isActive: false,
+  },
+  {
+    src: '/standart.svg',
+    price: 19,
+    items: defaultText,
+    isActive: true,
+  },
+  {
+    src: '/premium.svg',
+    price: 35,
+    items: defaultText,
+    isActive: false,
+  },
+];
