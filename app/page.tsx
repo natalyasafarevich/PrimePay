@@ -9,6 +9,7 @@ import Awards from '../components/Awards/Awards';
 import LightMood from '../components/LightMood/LightMood';
 import Bank from '../components/Bank/Bank';
 import Pricing from '../Pricing/Pricing';
+import Footer from '../components/Footer/Footer';
 
 export default function Home() {
   return (

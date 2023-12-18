@@ -19,25 +19,6 @@
   // .header__logo
 
   &__logo {
-    &::before {
-      content: "";
-      display: inline-block;
-      width: 44.12px;
-      // vertical-align: middle;
-      height: 53.137px;
-      margin-right: 10px;
-      min-width: 44px;
-      background: no-repeat url("/logo.svg");
-    }
-
-    display: flex;
-    align-items: flex-end;
-    margin: 0 12px;
-    color: var(--primary-color);
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 129.7%; /* 38.91px */
   }
 
   // .header__box
@@ -71,7 +52,6 @@
     max-width: 140px;
   }
 }
-.logo {
-}
+
 .button-dark {
 }

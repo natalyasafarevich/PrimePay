@@ -153,3 +153,26 @@ export const PRICE_CARDS: Array<PriceCardT> = [
     isActive: false,
   },
 ];
+
+export const FOOTER_SOCIAL = [
+  {
+    url: 'https://www.instagram.com/',
+    img: '/insta.svg',
+  },
+  {
+    url: 'https://www.facebook.com/',
+    img: '/fb.svg',
+  },
+  {
+    url: 'https://twitter.com/',
+    img: '/twiter.svg',
+  },
+  {
+    url: 'https://www.linkedin.com/',
+    img: '/in.svg',
+  },
+  {
+    url: 'https://www.youtube.com//',
+    img: '/youtube.svg',
+  },
+];

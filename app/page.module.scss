@@ -2,6 +2,9 @@
   &__banner {
   }
   &__form {
+    margin-bottom: -12%;
+    z-index: 9;
+    position: relative;
     background: center/cover no-repeat url(/form-bg.svg);
     width: 100%;
     padding: 100px 45px;
