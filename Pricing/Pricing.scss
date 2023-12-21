@@ -1,0 +1,44 @@
+.pricing {
+  // .pricing__inner
+
+  &__inner {
+    padding: 150px 0;
+  }
+
+  // .pricing__title
+
+  &__title {
+    max-width: 554px;
+    width: 100%;
+    margin: 0 auto 55px;
+    text-align: center;
+    color: #b5b5b5;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 101.2%;
+    span {
+      color: #231656;
+    }
+  }
+
+  // .pricing__row
+
+  &__row {
+    display: flex;
+    // justify-content: center;
+    margin: 0 -21px;
+  }
+
+  // .pricing__card
+
+  &__card {
+    padding: 44px 45px;
+    border-radius: 30px;
+    background: #f2f2f2;
+    margin: 0 21px;
+    max-width: 438px;
+    width: 100%;
+  }
+}
+.container {
+}
